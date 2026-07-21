@@ -1,0 +1,14 @@
+{
+  "$comment": "User-level Claude Code settings, carried onto every Machine by customcode from this claude home repo. This file is the BASE of the merge: every key you set here survives, EXCEPT the keys marked DO NOT TOUCH below, which customcode force-overrides at every sync.",
+  "$comment-statusLine": "DO NOT TOUCH OR RELY ON THIS KEY — IT WILL BE OVERLAID BY CUSTOMCODE. Claude Code allows exactly one statusLine command and hands it the live rate-limit/context numbers; customcode must own that slot or its Telemetry goes dark. The value below only documents what customcode enforces. To restyle your visible line, ship a 'statusline-render' file at the top of claude/ instead — customcode reports Telemetry first, then execs your renderer for the line.",
+  "$comment-tui": "DO NOT TOUCH THIS KEY EITHER — ALSO OVERLAID BY CUSTOMCODE. Pinned to the main-screen renderer because customcode's browser terminal owns the scrollback; 'fullscreen' would break wheel scrolling in the viewer.",
+  "tui": "default",
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "python3 \"$CLAUDE_CONFIG_DIR/statusline.py\"",
+    "refreshInterval": 10
+  }
+}

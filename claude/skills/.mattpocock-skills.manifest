@@ -1,0 +1,23 @@
+# Vendored from https://github.com/mattpocock/skills @ e9fcdf9 by scripts/update_skills.sh.
+# Do not edit these skill dirs by hand — re-run: make skills.update
+mp-code-review
+mp-codebase-design
+mp-diagnosing-bugs
+mp-domain-modeling
+mp-grill-with-docs
+mp-implement
+mp-improve-codebase-architecture
+mp-prototype
+mp-research
+mp-resolving-merge-conflicts
+mp-setup-matt-pocock-skills
+mp-tdd
+mp-to-spec
+mp-to-tickets
+mp-triage
+mp-wayfinder
+mp-grill-me
+mp-grilling
+mp-handoff
+mp-teach
+mp-writing-great-skills
