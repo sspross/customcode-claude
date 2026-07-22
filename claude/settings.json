@@ -3,6 +3,7 @@
   "$comment-statusLine": "DO NOT TOUCH OR RELY ON THIS KEY — IT WILL BE OVERLAID BY CUSTOMCODE. Claude Code allows exactly one statusLine command and hands it the live rate-limit/context numbers; customcode must own that slot or its Telemetry goes dark. The value below only documents what customcode enforces. To restyle your visible line, ship a 'statusline-render' file at the top of claude/ instead — customcode reports Telemetry first, then execs your renderer for the line.",
   "$comment-tui": "DO NOT TOUCH THIS KEY EITHER — ALSO OVERLAID BY CUSTOMCODE. Pinned to the main-screen renderer because customcode's browser terminal owns the scrollback; 'fullscreen' would break wheel scrolling in the viewer.",
   "tui": "default",
+  "theme": "auto",
   "permissions": {
     "defaultMode": "auto"
   },
